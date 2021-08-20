@@ -1,1 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 
+body {
+    background-color: antiquewhite;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#zuri {
+    width: 40%;
+    margin: 2em 0 0 2em;
+
+}
+
+#hng {
+    width: 30%;
+    margin: 6em 0 0 2em;
+}
+
+#i4g {
+    width: 40%;
+    margin: 6em 0 0 2em;
+}
+
+h1 {
+    margin: 1em 0 0 1em;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 3em 0 0 2em;
+    color: blue;
+}
+
+.int, .oau {
+    margin: 1em 0 0 3em;
+}
+
+.mon, .mont {
+    margin: 0.5em 0 0 3em ;
+}
+
+h3 {
+    font-size: 15px;
+    margin: 1em 0 0 2em;
+    color: blue;
+}
+
+#contact {
+    margin: 1em 0 0 2em;    
+}
+
+ul {
+    list-style: none;
+}
+
+i {
+    font-size: 18px;
+}
+
+footer li {
+	margin: 0 0 0 1em;
+}
+
+@media only screen and (min-width: 468px) {
+	
+	#zuri {
+		margin: 1em 0 0 2em;
+		width: 30%;
+		}
+		
+	#hng {
+  margin: 3em 0 0 6em;
+  width: 30%;
+}
+
+ #i4g {
+  margin: 2.8em 0 0 10em;
+  width: 30%;
+}
+
+ h1 {
+ 	margin: 7em 0 0 1.5em;
+ 	font-size: 15px;
+ }
+
+h2 {
+    font-size: 10px;
+    margin: 6em 0 0 2em;
+}
+
+i {
+    font-size: 11px;
+}
+
+.mon, .mont {
+    margin: 0.5em 0 0 6em ;
+    font-size: 10px;
+}
+
+#exp {
+	padding: 20px 0 10px 0;
+}
+	
+	h3 {
+    margin: 3em 0 0 2em;
+}
+
+footer {
+	padding: 20px 0 0 0;
+}	
+}
+
+@media only screen and (max-width: 468px) {
+	
+	header {
+		width: 100%;
+	}
+	
+	#zuri {
+		margin: 1em 0 0 2em;
+		width: 30%;
+		}
+		
+	#hng {
+  margin: 1.8em 0 0 1.8em;
+  width: 40%;
+}
+
+ #i4g {
+  margin: 1.8em 0 0 3em;
+  width: 30%;
+}
+
+h1 {
+ 	margin: 3em 0 0 1.5em;
+ 	font-size: 15px;
+ 	width: 70%;
+ }
+
+ i {
+ 	font-size: 15px;
+ }
+ 
+ .mon {
+ 	font-size: 13px;
+ }
+ 
+ #ski {
+ 	width: 70%;
+ }
+ 
+ footer {
+ 	width: 80%;
+ 	padding: 0 0 20px 0;
+ }
+ 
+ #edu {
+ 	width: 80%;
+ }
+ 
+ #exp {
+ 	width: 70%;
+ }
+	
+	.int, .oau {
+    margin: 1em 0 0 1.9em;
+}
+
+}
